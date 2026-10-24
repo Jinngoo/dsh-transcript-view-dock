@@ -21,11 +21,14 @@ Pins the Work details switcher under the composer so Compact / Standard / Detail
 
 ## 安装
 
+克隆仓库后，用克隆目录的绝对路径安装（本插件未发布到 npm）：
+
 ```
-dsh plugin --profile web add E:\Work\Git\deepseek-plugin\dsh-transcript-view-dock
+git clone git@github.com:Jinngoo/dsh-transcript-view-dock.git
+dsh plugin --profile web add <克隆目录的绝对路径>
 ```
 
-或在 DSH 会话里用 `plugin_manager`，`action: install_bundle`、`target` 用上面的绝对目录。
+或在 DSH 会话里用 `plugin_manager`，`action: install_bundle`、`target` 用同样的绝对目录。
 装完刷新页面（新的 Client 包需要重新加载 Web 资产）。卸载：
 
 ```
