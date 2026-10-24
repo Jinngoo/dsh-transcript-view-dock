@@ -5,6 +5,10 @@ DSH Web UI 插件：**把「设置 → 通用设置 → 工作步骤展示」搬
 不必再翻进设置里点两层。
 Pins the Work details switcher under the composer so Compact / Standard / Detailed / Verbose are one click away.
 
+![工作步骤展示下拉菜单：dock 最左侧的 ≡ 详细 按钮点开后的四档菜单](docs/dock-menu.png)
+
+> 截图：暗色主题，dock 最左侧 `≡ 详细 ⌃` 展开后的样子（简洁 / 标准 / 详细 / 完全展开，当前档位打勾）。
+
 ## 它做什么
 
 - 在 `conversation.composer.dock`（输入框卡片下方那行，「内容宽度」滑杆所在的那一行）注册一个条目，
