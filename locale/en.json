@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Work details switcher",
+    "description": "Pins the Work details switcher under the composer so Compact, Standard, Detailed, and Verbose are one click away instead of a trip through Settings → General."
+  }
+}

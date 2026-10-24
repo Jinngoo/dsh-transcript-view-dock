@@ -1,0 +1,59 @@
+{
+  "name": "@jinngoo/dsh-transcript-view-dock",
+  "version": "0.1.1",
+  "description": "DSH Web UI 插件：把「设置 → 通用设置 → 工作步骤展示」搬到输入框下方的 dock 最左侧，一个紧凑按钮 + 下拉菜单即可随时切换四档展示，不必再翻进设置。Pins the Work details switcher under the composer so the four display modes are one click away.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./client": {
+      "default": "./client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": "^0.2.0-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "web-ui",
+    "transcript-view",
+    "work-details",
+    "composer"
+  ]
+}

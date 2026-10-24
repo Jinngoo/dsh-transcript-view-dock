@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Work details switcher">
+  <title>Work details switcher</title>
+  <g fill="none" stroke="#247bbf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 对话内容里的工作步骤：三行，长度依次递增 = 展示档位 -->
+    <path d="M14 12 H50"/>
+    <path d="M14 22 H42"/>
+    <path d="M14 32 H34"/>
+    <!-- 输入框下方那行 dock 里的切换器 -->
+    <rect x="10" y="44" width="28" height="12" rx="6"/>
+    <!-- 下拉箭头（展开四档） -->
+    <path d="M46 46 L51 51 L56 46"/>
+  </g>
+</svg>
