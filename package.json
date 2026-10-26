@@ -1,7 +1,8 @@
 {
   "name": "@jinngoo/dsh-transcript-view-dock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DSH Web UI 插件：把「设置 → 通用设置 → 工作步骤展示」搬到输入框下方的 dock 最左侧，一个紧凑按钮 + 下拉菜单即可随时切换四档展示，不必再翻进设置。Pins the Work details switcher under the composer so the four display modes are one click away.",
+  "author": "Jinngoo <jinngoo@qq.com> (https://github.com/Jinngoo)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -34,7 +35,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=22",
